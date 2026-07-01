@@ -127,28 +127,6 @@
   }
   .hero-actions{display:flex; gap:16px; flex-wrap:wrap;}
 
-  /* Blueprint drawing illustration */
-  .blueprint-card{
-    background:var(--ink);
-    border-radius:6px;
-    padding:34px;
-    position:relative;
-    aspect-ratio:1/1.05;
-  }
-  .blueprint-card svg{width:100%; height:100%;}
-  .blueprint-card .tag{
-    position:absolute; bottom:-14px; left:24px;
-    background:var(--amber); color:var(--white);
-    padding:6px 14px; border-radius:2px;
-    font-family:'IBM Plex Mono', monospace; font-size:0.72rem;
-    letter-spacing:0.08em;
-  }
-
-  @media (max-width:900px){
-    .hero .wrap{grid-template-columns:1fr;}
-    .blueprint-card{max-width:420px; margin:0 auto;}
-  }
-
   /* ---------- Section shell ---------- */
   section{padding:100px 0;}
   .section-head{max-width:640px; margin-bottom:60px;}
